@@ -157,4 +157,11 @@ footer a:hover {
 	.meme-text {
 		font-size: 1.55em;
 	}
+	.header-title {
+		font-size: 1.9rem;
+		box-sizing: content-box;
+		border: solid black 2px;
+		background-color: rgb(186, 20, 25);
+		padding: 3px;
+	}
 }
