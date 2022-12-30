@@ -1,0 +1,160 @@
+.App {
+	font-family: "Karla", sans-serif;
+	max-width: 1200px;
+	width: 95vw;
+	margin: 2% auto;
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	background-color: #39A2AE;
+}
+
+
+header {
+	display: flex;
+	align-items: center;
+	height: 5em;
+	background: url(https://cdn.discordapp.com/attachments/781224167524925460/1058200773516861450/Meme-Wallpaper-memes-30218766-1548-1094.jpg);
+	border: solid black 2px;
+	color: #e9f9eb;
+	padding: 1.2em;
+	border-radius: 10px 10px 0 0;
+	justify-content: center;
+}
+
+
+
+.header-title {
+	font-size: 2.25rem;
+	box-sizing: content-box;
+	border: solid black 2px;
+	background-color: rgb(186, 20, 25);
+	padding: 3px;
+}
+
+
+
+
+main {
+	padding: 5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	display: grid;
+	grid-template: 40px 40px / 1fr 1fr;
+	gap: 1em;
+}
+
+.form-input {
+	font-family: "Karla", sans-serif;
+	border-radius: 5px;
+	border: 1px solid #D5D4D8;
+	text-indent: 5px;
+}
+
+.form-button {
+	grid-column: 1 / -1;
+	background: rgb(57,162,174);
+background: linear-gradient(93deg, rgba(57,162,174,1) 0%, rgba(85,219,203,1) 100%);
+	font-family: "Karla", sans-serif;
+	border-radius: 5px;
+	font-weight: 500;
+	color: #351600;
+	border: none;
+	cursor: pointer;
+}
+
+.meme {
+	position: relative;
+	margin-top: 2em;
+	align-self: center;
+}
+
+.meme-image {
+	max-width: 100%;
+}
+
+html {
+	
+	background-color: #75E4B3 ;
+}
+#root {
+	
+	background-color: #75E4B3 ;
+	
+}
+.meme-text {
+	position: absolute;
+	width: 80%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 15px 0;
+	padding: 0 5px;
+	font-family: impact, sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow:
+		2px 2px 0 #000,
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		0 2px 0 #000,
+		2px 0 0 #000,
+		0 -2px 0 #000,
+		-2px 0 0 #000,
+		2px 2px 5px #000;
+}
+
+.bottom {
+	bottom: 0;
+}
+
+.top {
+	top: 0;
+}
+
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 4.5rem;
+	font-size: 1em;
+	background: url(https://cdn.discordapp.com/attachments/781224167524925460/1058200773516861450/Meme-Wallpaper-memes-30218766-1548-1094.jpg);
+	border: solid black 2px;	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;	
+	margin-top: 1em;
+}
+
+footer p {
+	padding: 0.3rem;
+	margin: 0;
+	box-sizing: content-box;
+	border: solid black 2px;
+	background-color: orange;
+}
+
+
+.logo {
+	width: 40px;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+footer a:hover {
+	filter: opacity(40%);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.meme-text {
+		font-size: 1.55em;
+	}
+}
